@@ -1,7 +1,6 @@
-#The purpose of this project is to show how to handle graph data structures. I implemented depth-first search for identifying the connected components of an undirected graph, implementing procedure Search as a subroutine along the way.
-#I used the NetworkX Python package to represent and manipulate graphs.
-#I used Homer's Iliad to create my Graph nodes and edges.
-
+"""
+The purpose of this project is to show how to handle graph data structures. I implemented depth-first search for identifying the connected components of an undirected graph, implementing procedure Search as a subroutine along the way. I used the NetworkX Python package to represent and manipulate graphs. I used Homer's Iliad to create my Graph nodes and edges.
+"""
 import networkx as nx
 import urllib2
 import itertools
@@ -37,6 +36,7 @@ G.add_edges_from(read_edges(homer))
 nx.draw(G)
 
 #Search funciton takes a graph and a vertex Root, and runs a DFS through a graph, starting a given root. Neighboring nodes are processed in alphabetical order.
+
 def Search(graph, root):
     initial_deck, visited=[], []
     initial_deck.append(root)
@@ -55,7 +55,6 @@ ulysses
 #Now implementing DFS to compute the connected components of the given graph.
 
 def connected_components(graph):
-   
     a, visited=sorted(graph.nodes()), []
     while len(a)!=0:
         nodes=Search(G,a[0])
