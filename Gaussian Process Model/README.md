@@ -1,7 +1,9 @@
 # Gaussian Process Model for Regression
 
 Gaussian process treats a set of N observations (x1,y1) .. (xN,yN), with x_i in R^d and y_i in R, as being generated from a multivariate Gaussian distribution as follows:
-           <insert formula>
+
+           ==insert formula==
+
 Here, y is an N-dimensional vector of outputs and K is an N x N kernel matrix. For this problem, I used the Guassian kernal indicated above. For making predictions, for a new y' given x', which was Gaussian with mean m(x') and variance Sigma(x').
 
 
