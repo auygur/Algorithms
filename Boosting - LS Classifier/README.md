@@ -12,7 +12,7 @@ Note: The intercept dimension has not been included in the features provided, so
 
 #### Part A
 
-The implemented boosted LS classifier was ran for T = 1,500 rounds. The training and testing error of f_boost(t) for t = 1, ..., T was visualized.
+The implemented boosted LS classifier is ran for T = 1,500 rounds. The training and testing error of f_boost(t) for t = 1, ..., T is visualized below:
 
 <p align="center">
   <img src="images/partA.JPG"/>
@@ -20,7 +20,7 @@ The implemented boosted LS classifier was ran for T = 1,500 rounds. The training
 
 #### Part B
 
-Upper bound on the training error as a function of t was shown.
+Upper bound on the training error as a function of t is shown below:
 
 <p align="center">
   <img src="images/partB.JPG"/>
@@ -28,7 +28,7 @@ Upper bound on the training error as a function of t was shown.
 
 #### Part C
 
-A histogram of the total number of times each training data point was selected by the bootstrap method across all rounds was plotted. In other words, sum the histograms of all Bt.
+A histogram of the total number of times each training data point was selected by the bootstrap method across all rounds is plotted. In other words, sum the histograms of all B_t below:
 
 <p align="center">
   <img src="images/partC.JPG"/>
@@ -36,7 +36,7 @@ A histogram of the total number of times each training data point was selected b
 
 #### Part D
 
-e_t and a_t as a function of t was shown.
+e_t and a_t as a function of t are shown below:
 
 <p align="center">
   <img src="images/partD.JPG"/>
