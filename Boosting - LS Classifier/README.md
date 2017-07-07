@@ -1,11 +1,12 @@
-# Least Squares based Boosting Classifier Algorithm
+# Least Squares Classifier Based Boosting Algorithm
 
 Least Squares classifier performs least squares linear regression treating the +/-1 labels as real-valued responses. However, this classifier is not much effective, so boosting it can give good results.
 
 Approach: A Bootstrap method is used, where each bootstrap set B_t is the size of the training set. If error e_t >0.5, one can simply change the sign of the regression vector w (including the intercept w_0) and recalculate the error.
 
 ## Data
-Information about the data used for this problem can be found here: https://archive.ics.uci.edu/ml/datasets/Occupancy+Detection+
+Information about the original data used for this problem can be found here: https://archive.ics.uci.edu/ml/datasets/Occupancy+Detection+
+
 Note: The intercept dimension has not been included in the features provided, so I added a dimension equal to 1.
 
 ## Parts
@@ -39,5 +40,6 @@ A histogram of the total number of times each training data point was selected b
 e_t and a_t as a function of t are shown below:
 
 <p align="center">
-  <img src="images/partD.JPG"/>
+  <img src="images/partD1.JPG"/>
+  <img src="images/partD2.JPG"/>
 </p>
